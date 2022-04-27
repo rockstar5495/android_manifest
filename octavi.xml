@@ -14,6 +14,10 @@
            fetch="https://github.com/Project-Awaken/"
            revision="12.1" />
 
+  <remote  name="temp"
+           fetch="https://github.com/rockstar5495/"
+           revision="12.1" />
+
   <!-- GitLab -->
   <remote  name="gitlab"
            revision="12.1"
@@ -25,7 +29,7 @@
   <!-- Rootdir -->
   <project path="bionic" name="platform_bionic" groups="pdk" remote="octavi" />
   <project path="libcore" name="android_libcore" groups="pdk" remote="awaken" />
-  <project path="manifest" name="platform_manifest" remote="octavi" />
+  <project path="manifest" name="android_manifest" remote="temp" />
 
   <!-- Bootable -->
   <project path="bootable/recovery" name="android_bootable_recovery" groups="pdk" remote="awaken" />
